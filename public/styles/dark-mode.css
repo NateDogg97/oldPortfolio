@@ -41,3 +41,19 @@
 [data-theme="dark"] .theme-color-bg {
   background-color: #CF9FFF !important;
 }
+
+[data-theme="dark"] .hover:hover {
+  color: #5D3FD3 !important;
+}
+
+.theme-color {
+  color: #5D3FD3;
+}
+
+.theme-color-bg {
+  background-color: #5D3FD3;
+}
+
+.hover:hover{
+  color: #CF9FFF;
+}

@@ -104,17 +104,12 @@ body{margin-top:20px;}
   margin: 0;
   color: #fe4f6c;
 }
-.theme-color {
-    color: #5D3FD3;
-}
 
 .section {
     padding: 50px 0;
     position: relative;
 }
-.theme-color-bg {
-    background-color: #5D3FD3;
-}
+
 .px-btn.theme {
     background: #fe4f6c;
     color: #ffffff;
@@ -142,4 +137,3 @@ body{margin-top:20px;}
     border: 2px solid #fe4f6c;
     color: #fe4f6c;
 }
-
