@@ -5,6 +5,8 @@
  */
 
 var label = document.getElementById('label');
+var jqueryIcon = document.getElementById('jqueryIcon');
+var expressIcon = document.getElementById('expressIcon')
 var darkSwitch = document.getElementById("darkSwitch");
 window.addEventListener("load", function () {
   if (darkSwitch) {
@@ -34,9 +36,13 @@ function initTheme() {
   if (darkThemeSelected) {
     document.body.setAttribute("data-theme", "dark");
     label.innerHTML ='<i class="fa-solid fa-sun fa-lg"></i>';
+    jqueryIcon.src = './assets/icons/icons8-jquery-50-white.png';
+    expressIcon.src = './assets/icons/icons8-express-js-50-white-2.png';
   } else {
     document.body.removeAttribute("data-theme");
     label.innerHTML = '<i class="fa-solid fa-moon fa-lg"></i>';
+    jqueryIcon.src = './assets/icons/icons8-jquery-50.png';
+    expressIcon.src = './assets/icons/icons8-express-js-50.png';
   }
 }
 
@@ -51,10 +57,14 @@ function resetTheme() {
   if (darkSwitch.checked) {
     document.body.setAttribute("data-theme", "dark");
     label.innerHTML = '<i class="fa-solid fa-sun fa-lg"></i>';
+    jqueryIcon.src = './assets/icons/icons8-jquery-50-white.png';
+    expressIcon.src = './assets/icons/icons8-express-js-50-white-2.png';    
     localStorage.setItem("darkSwitch", "dark");
   } else {
     document.body.removeAttribute("data-theme");
     label.innerHTML = '<i class="fa-solid fa-moon fa-lg"></i>';
+    jqueryIcon.src = './assets/icons/icons8-jquery-50.png';
+    expressIcon.src = './assets/icons/icons8-express-js-50.png';
     localStorage.removeItem("darkSwitch");
   }
 }
