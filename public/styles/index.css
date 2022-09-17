@@ -143,6 +143,7 @@ body{margin-top:20px;}
   text-align: center;
   font-size: .8rem;
   border-radius: 30px;
+  margin-top: 50px;
 }
 
 .skill-grid {
@@ -162,7 +163,6 @@ body{margin-top:20px;}
 }
 
 .skill-grid li {
-
   padding: 10px;
   border-radius: 15px;
   width: 80px;
@@ -192,6 +192,43 @@ body{margin-top:20px;}
 
 .skill-grid li:hover {
   box-shadow: 0px 0px 30px 5px  #CF9FFF;
-
 }
 
+.card {
+  flex-direction: row;
+  border: none;
+  margin: 50px 0px 150px;
+  background-color: transparent;
+}
+
+.break {
+  border-bottom: 1px solid #CF9FFF;
+}
+
+.card.invert {
+  flex-direction: row-reverse;
+}
+
+.card img {
+  padding: 0px;
+  border-radius: 30px;
+}
+
+#contact-button, #resume-button {
+  border-radius: 30px;
+  padding: 15px;
+  background-color: transparent;
+  border: solid;
+  border-color: 1px solid #5D3FD3;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.fa-brands {
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+#contact-section {
+  margin-bottom: 100px;
+}
