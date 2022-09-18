@@ -82,11 +82,11 @@ body {
 .about-img {
   box-shadow: 0 5px 14px 0 rgba(0, 0, 0, 0.06);
   padding: 3px;
-  border-radius: 185px;
+  border-radius: 222px;
 }
 
 .about-img img {
-  border-radius: 182px;
+  border-radius: 219px;
 }
 
 @media (max-width: 991px) {
