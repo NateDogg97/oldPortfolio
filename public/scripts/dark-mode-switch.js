@@ -39,7 +39,7 @@ function initTheme() {
     jqueryIcon.src = './assets/icons/icons8-jquery-50-white.png';
     expressIcon.src = './assets/icons/icons8-express-js-50-white-2.png';
   } else {
-    document.body.removeAttribute("data-theme");
+    document.body.setAttribute("data-theme", "light");
     label.innerHTML = '<i class="fa-solid fa-moon fa-lg"></i>';
     jqueryIcon.src = './assets/icons/icons8-jquery-50.png';
     expressIcon.src = './assets/icons/icons8-express-js-50.png';
@@ -61,10 +61,9 @@ function resetTheme() {
     expressIcon.src = './assets/icons/icons8-express-js-50-white-2.png';    
     localStorage.setItem("darkSwitch", "dark");
   } else {
-    document.body.removeAttribute("data-theme");
+    document.body.setAttribute("data-theme", "light");
     label.innerHTML = '<i class="fa-solid fa-moon fa-lg"></i>';
     jqueryIcon.src = './assets/icons/icons8-jquery-50.png';
     expressIcon.src = './assets/icons/icons8-express-js-50.png';
-    localStorage.removeItem("darkSwitch");
   }
 }
