@@ -78,12 +78,21 @@ body{margin-top:20px;}
 
 .about-img {
   box-shadow: 0 5px 14px 0 rgba(0, 0, 0, 0.06);
-  padding: 10px;
-  background: #ffffff;
+  padding: 3px;
+  border-radius: 185px;
 }
+
+.about-img img {
+  border-radius: 182px;
+}
+
 @media (max-width: 991px) {
   .about-img {
     margin-top: 30px;
+    border-radius: 345px;
+  }
+  .about-img img {
+    border-radius: 342px;
   }
 }
 
@@ -260,5 +269,9 @@ body{margin-top:20px;}
   }
   .ftproj {
     visibility: hidden;
+  }
+  .resume-button {
+    display: flex;
+    justify-content: center;
   }
 }
