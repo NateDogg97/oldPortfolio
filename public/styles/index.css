@@ -138,6 +138,18 @@ body{margin-top:20px;}
     color: #fe4f6c;
 }
 
+.hire-me {
+  cursor: pointer;
+}
+
+#span {
+  margin-right: 4px;
+}
+
+.fa-comment {
+  transform: translate(0px, -10px);
+}
+
 .skills-container {
   padding: 48px;
   text-align: center;
@@ -226,4 +238,27 @@ body{margin-top:20px;}
 
 #contact-section {
   margin-bottom: 100px;
+}
+
+@media (max-width: 767px) {
+  .card, .card.invert {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card-body {
+    padding-top: 0px;
+  }
+  .header {
+    display: flex;
+    justify-content: center;
+  }
+  .col-6 {
+    max-width: 90%;
+  }
+  .col-5 {
+    max-width: 90%;
+  }
+  .ftproj {
+    visibility: hidden;
+  }
 }
