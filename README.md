@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-
-=======
 # Web Dev Portfolio for Nathaniel Mays
 
   ## Table of Contents:
