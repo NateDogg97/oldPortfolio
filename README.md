@@ -29,6 +29,8 @@
 
   Visit the deployed site here: https://natedogg97.github.io/newPortfolio/
 
+  [!Screenshot](/CodingProjects/portfolio/assets/Screen%20Shot%202022-09-24%20at%205.29.49%20PM.png)
+
   ## Usage
 
   For your viewing pleasure.
