@@ -65,5 +65,6 @@ function resetTheme() {
     label.innerHTML = '<i class="fa-solid fa-moon fa-lg"></i>';
     jqueryIcon.src = './assets/icons/icons8-jquery-50.png';
     expressIcon.src = './assets/icons/icons8-express-js-50.png';
+    localStorage.setItem("darkSwitch", "light");
   }
 }
