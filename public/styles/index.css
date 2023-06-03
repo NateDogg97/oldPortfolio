@@ -252,10 +252,12 @@ body {
 .card-img-top > iframe {
   padding: 0px;
   border-radius: 30px;
+  border: none;
 }
 
 #iframe-container {
   position: relative;
+  padding: 0px;
 }
 
 .card .loading-image {
