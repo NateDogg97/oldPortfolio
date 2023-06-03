@@ -248,9 +248,21 @@ body {
   flex-direction: row-reverse;
 }
 
-.card img {
+.card img,
+.card-img-top > iframe {
   padding: 0px;
   border-radius: 30px;
+}
+
+#iframe-container {
+  position: relative;
+}
+
+.card .loading-image {
+  position: absolute; 
+  left: 50%; 
+  top: 50%; 
+  transform: translate(-50%, -50%);
 }
 
 #contact-button, #resume-button {
