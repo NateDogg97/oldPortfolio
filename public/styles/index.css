@@ -1,5 +1,5 @@
 body {
-  font-family: 'Poppins', serif;
+  font-family: "Poppins", serif;
 }
 /* About Me 
 ---------------------*/
@@ -117,36 +117,36 @@ body {
 }
 
 .section {
-    padding: 50px 0;
-    position: relative;
+  padding: 50px 0;
+  position: relative;
 }
 
 .px-btn.theme {
-    background: #fe4f6c;
-    color: #ffffff;
-    border: 2px solid #fe4f6c;
+  background: #fe4f6c;
+  color: #ffffff;
+  border: 2px solid #fe4f6c;
 }
 .px-btn {
-    padding: 0 20px;
-    line-height: 42px;
-    border: 2px solid transparent;
-    position: relative;
-    display: inline-block;
-    background: none;
-    border: none;
-    -moz-transition: ease all 0.35s;
-    -o-transition: ease all 0.35s;
-    -webkit-transition: ease all 0.35s;
-    transition: ease all 0.35s;
-    border-radius: 5px;
-    font-size: 16px;
-    font-weight: 500;
+  padding: 0 20px;
+  line-height: 42px;
+  border: 2px solid transparent;
+  position: relative;
+  display: inline-block;
+  background: none;
+  border: none;
+  -moz-transition: ease all 0.35s;
+  -o-transition: ease all 0.35s;
+  -webkit-transition: ease all 0.35s;
+  transition: ease all 0.35s;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .px-btn.theme-t {
-    background: transparent;
-    border: 2px solid #fe4f6c;
-    color: #fe4f6c;
+  background: transparent;
+  border: 2px solid #fe4f6c;
+  color: #fe4f6c;
 }
 
 .hire-me {
@@ -155,8 +155,8 @@ body {
 
 #span {
   margin-right: 4px;
-  letter-spacing: .2rem;
-  font-family: 'Source Code Pro', serif;
+  letter-spacing: 0.2rem;
+  font-family: "Source Code Pro", serif;
 }
 
 .fa-comment {
@@ -166,7 +166,7 @@ body {
 .skills-container {
   padding: 48px;
   text-align: center;
-  font-size: .8rem;
+  font-size: 0.8rem;
   border-radius: 30px;
   margin-top: 50px;
   margin-bottom: 80px;
@@ -190,7 +190,7 @@ body {
 
 .skill-grid li {
   padding: 10px;
-  border-radius: 15px;
+  border-radius: 10px;
   width: 80px;
   -webkit-box-shadow: 0px 4px 8px rgb(207 159 255 / 50%);
   box-shadow: 0px 4px 8px rgb(207 159 255 / 50%);
@@ -204,7 +204,6 @@ body {
 
 .skill-grid li p {
   margin-bottom: 0px;
-
 }
 
 .skills-container li {
@@ -215,7 +214,7 @@ body {
 }
 
 .skill-grid li:hover {
-  box-shadow: 0px 0px 30px 5px  #CF9FFF;
+  box-shadow: 0px 0px 30px 5px #cf9fff;
 }
 
 .main-header {
@@ -237,7 +236,7 @@ body {
 }
 
 .ftproj {
-  letter-spacing: .25rem;
+  letter-spacing: 0.25rem;
   font-weight: 300;
   font-size: 90%;
 }
@@ -258,7 +257,7 @@ body {
 }
 
 .break {
-  border-bottom: 1px solid #CF9FFF;
+  border-bottom: 1px solid #cf9fff;
 }
 
 .card.invert {
@@ -268,7 +267,7 @@ body {
 .card img,
 .card-img-top > iframe {
   padding: 0px;
-  border-radius: 30px;
+  border-radius: 10px;
   border: none;
 }
 
@@ -278,13 +277,14 @@ body {
 }
 
 .card .loading-image {
-  position: absolute; 
-  left: 50%; 
-  top: 50%; 
+  position: absolute;
+  left: 50%;
+  top: 50%;
   transform: translate(-50%, -50%);
 }
 
-#contact-button, #resume-button {
+#contact-button,
+#resume-button {
   border-radius: 30px;
   padding: 15px;
   background-color: transparent;
@@ -301,7 +301,8 @@ body {
 }
 
 @media (max-width: 767px) {
-  .card, .card.invert {
+  .card,
+  .card.invert {
     flex-direction: column;
     align-items: center;
   }
